@@ -34,3 +34,4 @@ C:\NZWalks\NZWalks.API\obj\Debug\net8.0\refint\NZWalks.API.dll
 C:\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.pdb
 C:\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.genruntimeconfig.cache
 C:\NZWalks\NZWalks.API\obj\Debug\net8.0\ref\NZWalks.API.dll
+C:\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.sourcelink.json
