@@ -32,5 +32,19 @@ namespace NZWalks.API.Controllers
             return Ok(regionDto);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetById(Guid id)
+        {
+            var region = _dbContext.Regions.First(x => x.Id == id);
+
+            if (region != null)
+            {
+                var regionDto = new RegionDto(region);
+
+                return Ok(regionDto);
+            }
+            return NotFound();
+        }
+
     }
 }
