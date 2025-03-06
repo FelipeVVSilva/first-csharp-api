@@ -8,7 +8,8 @@ namespace NZWalks.API.Domain.Models
         public string Code { get; set; }
         public string Name { get; set; }
         public string? RegionImageUrl { get; set; }
-        
+
+        public Region() { }
         public Region(RegionDto regionDto)
         {
             Id = regionDto.Id;
@@ -21,14 +22,6 @@ namespace NZWalks.API.Domain.Models
             Code = addRegionDto.Code;
             Name = addRegionDto.Name;
             RegionImageUrl = addRegionDto.RegionImageUrl;
-        }
-
-        public Region(UpdateRegionDto UpdateRegionDto)
-        {
-            Id = Id;
-            Code = UpdateRegionDto.Code;
-            Name = UpdateRegionDto.Name;
-            RegionImageUrl = UpdateRegionDto.RegionImageUrl;
         }
     }
 }
